@@ -1,0 +1,16 @@
+.grid {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    width: 212px;
+    height: 422px;
+}
+.grid > div {
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    width: 20px;
+    height: 20px;
+}
+.grid > div.tetro {
+    background-color: black;
+}
